@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="hero-title">Vengeance</h1>
+    <!-- toggle - button -->
+    <div class="btn" id="toggle-btn">
+      <div class="btn-outline btn-outline-1"></div>
+      <div class="btn-outline btn-outline-2"></div>
+      <div id="hamburger">
+        <span></span>
+      </div>
+    </div>
+
+    <!-- svg-overlay -->
+    <div class="overlay">
+      <svg viewBox="0 0 1000 1000">
+        <path d="M0,1005S175,995,500,995s500,5,500,5V0H0Z "></path>
+      </svg>
+    </div>
+
+    <!-- menu-items -->
+    <div class="menu">
+      <!-- primary-menu -->
+      <div class="primary-menu">
+        <div class="menu-container">
+          <div class="wrapper">
+            <div class="menu-item">
+              <a href=""><span>I</span>Index</a>
+              <div class="menu-item-revealer"></div>
+            </div>
+
+            <div class="menu-item">
+              <a href=""><span>II</span>Work</a>
+              <div class="menu-item-revealer"></div>
+            </div>
+
+            <div class="menu-item">
+              <a href=""><span>III</span>About</a>
+              <div class="menu-item-revealer"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- secondary menu -->
+
+      <div class="secondary-menu">
+        <div class="menu-container">
+          <div class="wrapper">
+            <div class="menu-item">
+              <a href="">Speaker</a>
+              <div class="menu-item-revealer"></div>
+            </div>
+
+            <div class="menu-item">
+              <a href="">Blog</a>
+              <div class="menu-item-revealer"></div>
+            </div>
+
+            <div class="menu-item">
+              <a href="">Contact</a>
+              <div class="menu-item-revealer"></div>
+            </div>
+          </div>
+          <div class="wrapper">
+            <div class="menu-item">
+              <a href="">Credits</a>
+              <div class="menu-item-revealer"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/CSSRulePlugin.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
