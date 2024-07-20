@@ -26,7 +26,7 @@ function revealMenuItem() {
     "#hamburger span",
     0.9,
     {
-      background: "#e2e2dc",
+      background: "white",
       ease: "power2.inOut",
     },
     "<"
@@ -35,7 +35,7 @@ function revealMenuItem() {
     spanBefore,
     0.9,
     {
-      background: "#e2e2dc",
+      background: "white",
       width: "30px",
       ease: "power2.inOut",
     },
